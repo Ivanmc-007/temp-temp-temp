@@ -1,0 +1,60 @@
+html, body {
+    background-color: rgba(20, 40, 80, 0.05);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+p, li, ul, table, h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.container__h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgba(20, 40, 80, 0.3);
+    padding: 1%;
+    font-size: 1.1em;
+    font-family: Arial, "sans-serif";
+    height: 100%;
+}
+
+.container__list {
+    border: 1px solid #238b5c;
+    padding: 5px 5px;
+}
+
+.container__list__item {
+    color: #238b5c;
+}
+
+.container__image {
+    height: 240px;
+}
+
+.container__image img {
+    height: 100%;
+    float: right;
+}
+
+/*paragraph внутри paragraphs*/
+.paragraphs .paragraph {
+    letter-spacing: 0.05em;
+    margin: 5px 0;
+    padding: 10px 5px;
+    border: 1px solid #238b5c;
+    border-radius: 5px;
+}
+
+.paragraphs .paragraph:first-child {
+    margin: 0 0 5px 0;
+}
+
+.paragraphs .paragraph.special {
+    font-weight: 700;
+}
